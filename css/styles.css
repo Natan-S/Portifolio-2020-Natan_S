@@ -422,7 +422,7 @@ a {
     transition: 0.8s;
 }
 
-#btn_About p:hover {
+#btn_About a:hover {
     color: black;
     transition: 0.5s;
 }
