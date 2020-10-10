@@ -305,7 +305,6 @@ a {
     margin-top: -50px;
     padding-top: -50px;
     font-size: 13pt;
-    width: 100%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -436,34 +435,32 @@ a {
     margin: 0;
 }
 
-.banner2 h1 {
+.banner2 h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #54c0f7;
     font-size: 28pt;
-    width: 100%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 50px;
 }
 
-.banner2 h2 {
+.banner2 h3 {
     font-family: 'Josefin Sans', sans-serif;
     color: #666;
     font-size: 11pt;
-    width: 100%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 40px;
 }
 
-#about h1 {
+#about h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #54c0f7;
-    font-size: 28pt;
+    font-size: 25pt;
     margin-top: 40px;
-    width: 100%;
+    align-items: center;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -596,7 +593,7 @@ a {
     color: #5ab6e4;
 }
 
-.graph h3 {
+.graph h5 {
     font-family: 'Varela Round', sans-serif;
     font-size: 16pt;
     height: 20px;
@@ -605,7 +602,7 @@ a {
     text-transform: uppercase;
 }
 
-.seo h3 {
+.seo h5 {
     font-family: 'Varela Round', sans-serif;
     font-size: 16pt;
     text-align: center;
@@ -613,7 +610,7 @@ a {
     margin-right: auto;
 }
 
-.window h3 {
+.window h5 {
     font-family: 'Varela Round', sans-serif;
     font-size: 16pt;
     height: 20px;
@@ -623,7 +620,7 @@ a {
     margin-top: 10px;
 }
 
-.market h3 {
+.market h5 {
     font-family: 'Varela Round', sans-serif;
     font-size: 16pt;
     margin-left: 15px;
@@ -633,38 +630,37 @@ a {
     margin-top: 10px;
 }
 
-.graph h5 {
+.graph p {
     font-size: 11pt;
     text-align: center;
     text-decoration: none;
     margin-top: 30px;
 }
 
-.window h5 {
+.window p {
     font-size: 11pt;
     text-align: center;
     text-decoration: none;
 }
 
-.market h5 {
+.market p {
     font-size: 11pt;
     text-align: center;
     text-decoration: none;
 }
 
-.seo h5 {
+.seo p {
     font-size: 11pt;
     text-align: center;
     text-decoration: none;
     margin-top: 10px;
 }
 
-#services h1 {
+#services h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #54c0f7;
-    font-size: 28pt;
+    font-size: 25pt;
     margin-top: 50px;
-    width: 100%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -756,7 +752,7 @@ input[type=submit] {
     margin-bottom: 50px;
 }
 
-.align-info h1 {
+.align-info h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #5ab6e4;
     font-size: 25pt;
@@ -885,7 +881,7 @@ input[type=submit] {
     .box-content {
         height: 100%;
     }
-    #about h1 {
+    #about h2 {
         font-size: 24pt;
         margin-top: 30px;
     }
@@ -895,13 +891,11 @@ input[type=submit] {
         margin-left: 25PX;
         margin-right: 25PX;
     }
-    .banner2 h1 {
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 22pt;
-        margin-top: -30px;
-    }
     .banner2 h2 {
+        margin-top: -30px;
+        font-size: 22pt;
+    }
+    .banner2 h3 {
         font-size: 12pt;
         margin-top: -50px;
     }
