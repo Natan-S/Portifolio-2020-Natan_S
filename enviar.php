@@ -21,7 +21,7 @@ use PHPMailer\PHPMailer\Exception;
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 		$mail->Username = 'natansouzacontato@gmail.com';
-		$mail->Password = '4608314646085513';
+		$mail->Password = '123abc';
 		$mail->Port = 587;
  
 		$mail->setFrom('natansouzacontato@gmail.com');
